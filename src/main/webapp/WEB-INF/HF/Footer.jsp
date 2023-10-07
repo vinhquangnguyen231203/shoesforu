@@ -12,7 +12,17 @@ pageEncoding="UTF-8" isELIgnored="false" %>
   }
   .icon{
     text-align: right;
+    margin-right:10px;
   }
+  .icon a {
+    margin-right: 5px;
+}
+.icon p{
+  margin-right: 5px;
+}
+
+
+
   .customersupport a {
   text-decoration: none;
   color: #adadad;
@@ -46,6 +56,21 @@ pageEncoding="UTF-8" isELIgnored="false" %>
     font-size: 20px;
     margin-bottom:15px;
   }
+
+
+  .info{
+    display: flex;
+    align-items: center;
+    color: #adadad;
+}
+
+.icon-text {
+    margin-left: 5px; /* Tạo khoảng cách giữa biểu tượng và chữ */
+}
+.icon p{
+  display: inline-block;
+  margin-right: 10px;
+}
 </style>
 
 
@@ -70,7 +95,7 @@ pageEncoding="UTF-8" isELIgnored="false" %>
 
 
   <section class="icon">
-  <a href="https://www.facebook.com/vinhquang.nguyen.7186896" target="_blank">
+  <a href="https://www.facebook.com/vinhquang.nguyen.7186896" target="_blank"  >
     <img src="images/fb.png" alt="Biểu tượng Facebook"style="width:25px;height:25px;"  />
   </a>
   <a href="https://www.facebook.com/vinhquang.nguyen.7186896" target="_blank">
@@ -85,5 +110,20 @@ pageEncoding="UTF-8" isELIgnored="false" %>
   <a href="https://www.facebook.com/vinhquang.nguyen.7186896" target="_blank">
     <img src="images/mess.png" alt="Biểu tượng mess" style="width:25px;height:25px;" />
   </a>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p class="info">
+    <img src="images/location.png" alt="Biểu tượng Facebook" style="width: 25px; height: 25px;"/>
+    <span class="icon-text">địa chỉ:371 Nguyễn Kiệm Quận Gò Vấp</span>
+  </p>
+  <p class="info">
+    <img src="images/phone.png" alt="Biểu tượng Facebook" style="width: 25px; height: 25px;"/>
+    <span class="icon-text">số điện thoại:123456789</span>
+  </p>
+
 </section>
 </footer>

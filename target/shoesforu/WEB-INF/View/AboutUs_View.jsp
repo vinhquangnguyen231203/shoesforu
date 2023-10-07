@@ -13,17 +13,16 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <!--menu-->
         <jsp:include page="Menu.jsp"></jsp:include>
 
+        <!-- lấy ảnh từ db -->
         <div>
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> quang
+            <h1>a</h1>
         </div>
 
+        <!--  -->
         <div>
 
         </div>
+
         <!--footer-->
         <jsp:include page="Footer.jsp"></jsp:include>
     </body>

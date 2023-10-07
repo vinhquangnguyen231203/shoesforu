@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.annotation.WebServlet;
 
 @WebServlet("/footer")
-public class footer extends HttpServlet{
+public class FooterServletController extends HttpServlet{
      @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,IOException{
         RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/HF/Footer.jsp");

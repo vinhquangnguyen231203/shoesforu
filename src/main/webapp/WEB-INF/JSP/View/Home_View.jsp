@@ -10,6 +10,6 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <meta charset="UTF-8">
     </head>
     <body>
-        
+        <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
     </body>
 </html>

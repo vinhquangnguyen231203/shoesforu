@@ -13,9 +13,15 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <!--Menu-->
         <jsp:include page="Menu.jsp"></jsp:include>
 
+<<<<<<< HEAD
         <!-- Lấy ảnh từ db -->
         <div>
             <h1>TZy</h1>
+=======
+        <!-- lấy ảnh từ db -->
+        <div>
+            <h1>a</h1>
+>>>>>>> huy
         </div>
 
         <!--  -->
@@ -23,7 +29,11 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
         </div>
 
+<<<<<<< HEAD
         <!--Footer-->
+=======
+        <!--footer-->
+>>>>>>> huy
         <jsp:include page="Footer.jsp"></jsp:include>
     </body>
 </html>

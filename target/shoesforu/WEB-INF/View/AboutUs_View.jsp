@@ -7,24 +7,23 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
     </head>
     <body>
-        <!--header-->
+        <!--Header-->
         <jsp:include page="Header.jsp"></jsp:include>
 
-        <!--menu-->
+        <!--Menu-->
         <jsp:include page="Menu.jsp"></jsp:include>
 
+        <!-- Lấy ảnh từ db -->
         <div>
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> quang
+            <h1>TZy</h1>
         </div>
 
+        <!--  -->
         <div>
 
         </div>
-        <!--footer-->
+
+        <!--Footer-->
         <jsp:include page="Footer.jsp"></jsp:include>
     </body>
 </html>

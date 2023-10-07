@@ -7,7 +7,7 @@
 <body>
     <div class="container">
         <a href="index.html">
-          <img src="logo.png" alt="ShoesforU">
+          <img src="shoesForU.png" alt="ShoesforU">
         </a>
     </div>
 </body>

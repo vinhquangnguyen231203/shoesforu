@@ -2,9 +2,12 @@
 charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-
+        <title>
+            ShoesforU
+        </title>
+        <meta charset="UTF-8">
     </head>
     <body>
         

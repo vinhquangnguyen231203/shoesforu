@@ -15,7 +15,7 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
         <!-- lấy ảnh từ db -->
         <div>
-            <img src="" alt="">
+            <img src="" alt="PictureAboutUs">
         </div>
 
         <!--  -->

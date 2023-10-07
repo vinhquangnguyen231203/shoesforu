@@ -1,3 +1,4 @@
 Model\model.class
+Controller\footer.class
 Controller\Controller.class
 Database\Connector.class

@@ -1,6 +1,6 @@
 <style>
     .menu_block nav{
-        background-color: #333;
+        background-color: #e0e0e0;
         text-align: center; /* Canh giữa nội dung trong thanh menu */
     }
     .menu_block ul{
@@ -14,7 +14,7 @@
     }
     .menu_block a{
         text-decoration: none;
-        color: #fff;
+        color: black;
         font-size: 30px; /* Chỉnh kích thước font chữ */
         padding: auto;
     }
@@ -25,11 +25,11 @@
 <section class="menu_block">
     <nav>
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="home">HOME</a></li>
             <li><a href="#">MEN</a></li>
             <li><a href="#">WOMEN</a></li>
             <li><a href="#">KID</a></li>
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="aboutus">ABOUT US</a></li>
         </ul>
     </nav>
 </section>

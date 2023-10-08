@@ -2,36 +2,68 @@
 charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <!-- HEAD -->
     <head>
+        <title>
+            ShoesforU
+        </title>
 
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- link -->
+        <link rel="shortcut icon" href="images/sneaker_logo.png" type="image/png">
+        <link rel="stylesheet" href="/WEB-INF/CSS/style.css">
+
+        <jsp:include page="/WEB-INF/JSP/HF/Header.jsp"></jsp:include>
+        
+        <!-- CSS -->
+        <style>
+            html{
+                scroll-behavior: auto;
+                scrollbar-color: blue;
+            }
+            .theh1 h1{
+                text-align: center;
+                font-size: 30px;
+                color: darkgreen;
+            }
+            .aboutus_block{
+                padding-left: 320px;
+            }
+            .aboutus_block h1{
+                text-align: center;
+                color: brown;
+            }
+            .aboutus_block h2{
+                color: blueviolet;
+            }
+            .aboutus_block h3{
+                color: black;
+            }
+        </style>
     </head>
+
+
+    <!-- BODY -->
     <body>
-        <!--Header-->
-        <jsp:include page="Header.jsp"></jsp:include>
-
-        <!--Menu-->
-        <jsp:include page="Menu.jsp"></jsp:include>
-
-        <!-- Lấy ảnh từ db -->
-        <div>
-<<<<<<< HEAD
-<<<<<<< HEAD:src/main/webapp/WEB-INF/JSP/View/AboutUs_View.jsp
-            <img src="" alt="">
-=======
-            <h1>TZy</h1>
->>>>>>> 70f2618c0c3d225feeaed34bf3bd178c1aea36ca:src/main/webapp/WEB-INF/View/AboutUs_View.jsp
-=======
-            <img src="src\main\webapp\WEB-INF\picture\4_550170c282e04ab6869a4d171a65cb6b.webp" alt="PictureAboutUs">
->>>>>>> quang
+        <jsp:include page="/WEB-INF/JSP/Menu/Menu.jsp"></jsp:include>
+        <div class="theh1">
+            <h1>Về nhóm 2</h1>
         </div>
-
-        <!--  -->
-        <div>
-
-        </div>
-
-        <!--Footer-->
-        <jsp:include page="Footer.jsp"></jsp:include>
+        <section class="aboutus_block">
+            <h2>Đề tài : Xây dựng trang web bán giày dép trực tuyến</h2>
+            <h3>Thành viên nhóm</h3>
+            <ul>
+                <li>Nguyễn Vinh Quang</li>
+                <li>Lê Quốc Phi</li>
+                <li>Lương Minh Hậu</li>
+                <li>Nguyễn Hoàng Huy</li>
+                <li>Bùi Ngọc Hải Liêm</li>
+            </ul>
+        </section>
+        <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
     </body>
 </html>

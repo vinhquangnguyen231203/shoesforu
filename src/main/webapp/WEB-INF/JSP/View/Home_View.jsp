@@ -16,8 +16,6 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <!-- link -->
         <link rel="shortcut icon" href="images/sneaker_logo.png" type="image/png">
         <link rel="stylesheet" href="/WEB-INF/CSS/style.css">
-
-        <jsp:include page="/WEB-INF/JSP/HF/Header.jsp"></jsp:include>
         
         <!-- CSS -->
         <style>
@@ -28,6 +26,9 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         </style>
     </head>
 
+    <header>
+        <jsp:include page="/WEB-INF/JSP/HF/Header.jsp"></jsp:include>
+    </header>
 
     <!-- BODY -->
     <body>
@@ -35,7 +36,9 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <div>
             <img src="images/bitis1.png" alt="Ảnh 1" width="100%">
         </div>
-        
-        <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
     </body>
+
+    <footer>
+        <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
+    </footer>
 </html>

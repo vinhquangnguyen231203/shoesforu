@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <title>ShoesforU</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <a href="index.html">
-          <img src="logo.png" alt="ShoesforU">
-        </a>
-    </div>
-</body>
-</html>
+<header>
+  <div class="container">
+    <center>
+      <a href="home">
+        <img src="images/shoesForU.png" alt="ShoesforU" style="width: 300px;height: 100px;">
+      </a>
+    </center>
+  </div>
+</header>
+

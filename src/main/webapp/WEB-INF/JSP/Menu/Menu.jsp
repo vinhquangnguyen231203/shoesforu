@@ -1,7 +1,7 @@
 <style>
     .menu_block nav{
         background-color: #e0e0e0;
-        text-align: center; /* Canh giữa nội dung trong thanh menu */
+        text-align: center;
     }
     .menu_block ul{
         list-style-type: none;

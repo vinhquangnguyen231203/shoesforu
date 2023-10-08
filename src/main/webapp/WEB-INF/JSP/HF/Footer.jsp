@@ -83,7 +83,9 @@ pageEncoding="UTF-8" isELIgnored="false" %>
   </section>
   
   <section class="aboutus">
-    <h1>About Us</h1>
+    <a href="aboutus">
+        <h1>AboutUs</h1>
+    </a>
   </section>
   
   

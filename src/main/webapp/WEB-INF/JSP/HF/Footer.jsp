@@ -113,7 +113,7 @@ pageEncoding="UTF-8" isELIgnored="false" %>
   <br>
   <p class="info">
     <img src="images/location.png" alt="Biểu tượng Facebook" style="width: 25px; height: 25px;"/>
-    <span class="icon-text"><Address>Our Address:371 Nguyễn Kiệm Quận Gò Vấp</Address></span>
+    <span class="icon-text">Our Address:371 Nguyễn Kiệm Quận Gò Vấp</span>
   </p>
   <p class="info">
     <img src="images/phone.png" alt="Biểu tượng Facebook" style="width: 25px; height: 25px;"/>

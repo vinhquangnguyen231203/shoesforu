@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 Controller\Controller.class
 Database\Connector.class
 Model\model.class
+=======
+Controller\HomeServletController.class
+Model\model.class
+Controller\FooterServletController.class
+Database\Connector.class
+>>>>>>> main

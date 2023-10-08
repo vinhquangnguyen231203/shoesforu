@@ -3,6 +3,7 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
 <!DOCTYPE html>
 <html lang="en">
+    <!-- HEAD -->
     <head>
         <title>
             ShoesforU
@@ -17,14 +18,24 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
         <link rel="stylesheet" href="/WEB-INF/CSS/style.css">
 
         <jsp:include page="/WEB-INF/JSP/HF/Header.jsp"></jsp:include>
-
+        
         <!-- CSS -->
         <style>
-
+            html{
+                scroll-behavior: auto;
+                scrollbar-color: blue;
+            }
         </style>
     </head>
+
+
+    <!-- BODY -->
     <body>
         <jsp:include page="/WEB-INF/JSP/Menu/Menu.jsp"></jsp:include>
+        <div>
+            <img src="images/bitis1.png" alt="Ảnh 1" width="100%">
+        </div>
+        
         <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
     </body>
 </html>

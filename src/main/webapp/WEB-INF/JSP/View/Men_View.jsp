@@ -18,7 +18,7 @@
             html{
                 scroll-behavior: auto;
                 scrollbar-color: blue;
-            }@charset "UTF-8";
+            }
 .products .box{
     width: 90%;
     margin: 0 auto;

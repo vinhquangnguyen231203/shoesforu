@@ -33,7 +33,7 @@
     box-shadow: 0 0 8px #6c14d0;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 20px;
+    padding: auto;
 }
 
 .products .box .card .small_card{
@@ -61,6 +61,11 @@
     line-height: 21px;
     margin: 8px 0;
 }
+.products h1{
+    text-align: center;
+    font-size: 35px;
+    color: #1c1b1bb9;
+}
 
 
         </style>
@@ -69,7 +74,9 @@
     <header>
         <jsp:include page="/WEB-INF/JSP/HF/Header.jsp"></jsp:include>
     </header>
-
+    <menu>
+        <jsp:include page="/WEB-INF/JSP/Menu/Menu.jsp"></jsp:include>
+    </menu>
 <body>
  <div class="products" id="Products">
         
@@ -111,7 +118,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes2.png">
+                    <img src="images/shoes2.png">
                 </div>
 
                 <div class="products_text">
@@ -138,7 +145,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes3.png">
+                    <img src="images/shoes3.png">
                 </div>
 
                 <div class="products_text">
@@ -165,7 +172,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes4.png">
+                    <img src="images/shoes4.png">
                 </div>
 
                 <div class="products_text">
@@ -192,7 +199,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes5.png">
+                    <img src="images/shoes5.png">
                 </div>
 
                 <div class="products_text">
@@ -219,7 +226,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes6.png">
+                    <img src="images/shoes6.png">
                 </div>
 
                 <div class="products_text">
@@ -246,7 +253,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes.png">
+                    <img src="images/shoes.png">
                 </div>
 
                 <div class="products_text">
@@ -273,7 +280,7 @@
                 </div>
 
                 <div class="image">
-                    <img src="image/shoes7.png">
+                    <img src="images/shoes7.png">
                 </div>
 
                 <div class="products_text">
@@ -296,4 +303,7 @@
     </div>
 
 </body>
+<footer>
+    <jsp:include page="/WEB-INF/JSP/HF/Footer.jsp"></jsp:include>
+</footer>
 </html>

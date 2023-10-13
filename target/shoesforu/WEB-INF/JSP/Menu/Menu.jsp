@@ -26,7 +26,7 @@
     <nav>
         <ul>
             <li><a href="home">HOME</a></li>
-            <li><a href="men">MEN</a></li>
+            <li><a href="#">MEN</a></li>
             <li><a href="#">WOMEN</a></li>
             <li><a href="#">KID</a></li>
             <li><a href="aboutus">ABOUT US</a></li>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; 
 charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 
@@ -102,3 +103,5 @@ charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %>
 </html>
 >>>>>>> main
 >>>>>>> a8bd503c22511d0f2d6d638e2f184a1830a32d3e
+=======
+>>>>>>> quang

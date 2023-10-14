@@ -1,3 +1,5 @@
+Controller\HomeServletController.class
+Controller\AboutUsServletController.class
 Model\model.class
-Controller\Controller.class
+Controller\FooterServletController.class
 Database\Connector.class

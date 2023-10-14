@@ -111,11 +111,7 @@ pageEncoding="UTF-8" isELIgnored="false" %>
     <img src="images/mess.png" alt="Biểu tượng mess" style="width:25px;height:25px;" />
   </a>
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <br><br><br><br><br>
   <p class="info">
     <img src="images/location.png" alt="Biểu tượng Facebook" style="width: 25px; height: 25px;"/>
     <span class="icon-text">địa chỉ:371 Nguyễn Kiệm Quận Gò Vấp</span>

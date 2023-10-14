@@ -13,7 +13,7 @@ import jakarta.servlet.annotation.WebServlet;
 public class footer extends HttpServlet{
      @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,IOException{
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/HF/Footer.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("Login.jsp");
         dispatcher.forward(req, resp);
         };
 
